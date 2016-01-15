@@ -28,12 +28,16 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
 }
 
 .band {
@@ -43,11 +47,17 @@ body {
 }
 
 .album {
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 18%;
+  z-index: 10;
 }
 
 .time {
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .time-bar {
