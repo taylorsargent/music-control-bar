@@ -91,10 +91,16 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  bottom: 50%;
+  right: 2%;
 }
 
 .controls {
@@ -107,7 +113,10 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  width: 100%;
+  bottom: 50%;
+  right: 28%;
 }
 
 .control-list {
